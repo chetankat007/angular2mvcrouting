@@ -16,3 +16,11 @@ Copy the About.cshtml & Index.cshtml to Views/Home directory.
 Copy the _Layout.cshtml to Views/Shared
 
 Copy the systemjs.config.js tsconfig.json typings.json package.json styles.css to root directory.
+
+Use npm install on root directory. This will add all folders within node_modules.
+Use npm install typings on root directory. This will add typings.
+
+Run the project in VS 2015 with Debug Any CPU and Google Chrome in to run bar.
+
+
+
