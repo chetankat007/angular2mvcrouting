@@ -1,0 +1,19 @@
+﻿<div class="panel panel-primary">
+    <div class="panel-heading">
+        Home : Hexaware People
+    </div>
+</div>
+
+<div class="panel">
+    <div>
+        <button (click)="setUser()">Show User</button>
+        <button (click)="removeUser()" [disabled]="noUserShowing">Remove User</button>
+    </div>
+</div>
+<div [hidden]="noUserShowing">
+    <div class="row">
+        <div class="col-md-12">
+            <img src={{img}} width="118px" height="63px" *ngFor="let img of images" class="space">
+        </div>
+    </div>
+</div>
